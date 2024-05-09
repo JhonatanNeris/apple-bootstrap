@@ -1,0 +1,42 @@
+#ipad-pro-container {
+    background-color: black;
+    padding-top: 2rem;
+}
+
+#ipad-pro-container p,
+#ipad-pro-container h3 {
+    text-align: center;
+}
+
+.cards-wrapper {
+    display: flex;
+}
+
+.card-custom {
+    margin: 0 .5rem;
+    width: calc(100%/3);
+}
+
+.text-orange-custom {
+    color: #f06e31;
+    /* Cor laranja em formato hexadecimal */
+}
+
+/* Estilo para os cards */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Transição suave para a transformação e sombra */
+}
+
+/* Efeito de hover */
+.card:hover {
+    transform: scale(1.05);
+    /* Aumenta o tamanho em 5% ao passar o mouse por cima */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra suave durante o hover */
+}
+.icons-custom{
+    display: flex;
+    margin-left: 2rem;
+    gap:1rem
+}
